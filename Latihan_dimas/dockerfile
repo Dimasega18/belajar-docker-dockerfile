@@ -1,0 +1,7 @@
+FROM ubuntu:latest
+
+RUN mkdir latihan_docker
+RUN echo 'Hello world' > latihan_docker/hai.txt
+RUN echo 'Nama saya dimas' >> latihan_docker/hai.txt
+
+CMD cat latihan_docker/hai.txt
