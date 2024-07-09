@@ -1,5 +1,7 @@
 FROM ubuntu:latest
 
+LABEL author='Dimas Ega' untuk='Latihan docker'
+
 RUN mkdir latihan_docker
 RUN echo 'Hello world' > latihan_docker/hai.txt
 RUN echo 'Nama saya dimas' >> latihan_docker/hai.txt
